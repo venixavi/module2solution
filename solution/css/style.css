@@ -1,41 +1,47 @@
 /** HEADER **/
 #header-nav {
   background-color: gray;
+  padding: 15px;
   border-radius: 0;
-  border: 1px;
+  border: 10px;
   border-color: black;
-  
+  margin-bottom: 0px;
+
 }
 
  .navbar-brand {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-left: 10px;
+  margin-left: 5px;
   border-color: black;
-}
+  text-align: top;
+ }
 
 
 .navbar-brand h1{ /*Restaurant Name  FOOD LLC*/
-  font-family: 'Lora', serif;
-  color: #000;
-  font-size: 2.5em;
+  font-family: Lora, serif;
+  color: black;
+  font-size: 2.0em;
   font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  text-align: left;
+  align-content: left;
 }
-
+  
 .container .jumbotron  h1 {
 	font-size: 2.0em;
+	padding:0px; 
+	padding-top:0px;
+	margin-bottom: 0px;
 }
 
 .menu-items {
 	background-color: gray
 }
 
-.menu-items h2, h3, h4 {
+.menu-items h2 {
 	font-size: 1.5em;
 	padding-top: 5px;
 	margin: 0;
+	font-weight: bold;
+	color: black;
 }
 
 .menu-items p {
@@ -43,4 +49,5 @@
 	margin-right: 10px;
 	margin-bottom: : 10px;
 	padding-bottom: 10px;
+	color: black;
 	}
